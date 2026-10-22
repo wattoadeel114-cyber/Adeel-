@@ -1,0 +1,50 @@
+
+COFFEE NUTRITION ANALYSIS PROJECT
+================================
+
+Date: 2026-10-22
+
+1. PROJECT OBJECTIVE
+The objective is to analyze coffee nutrition data
+and develop an interactive Coffee Nutrition App.
+
+2. DATASET OVERVIEW
+Total valid records: 6
+Unique coffee names: 6
+
+3. ETL METHODOLOGY
+Extract: Loaded coffee nutrition data from CSV.
+Transform: Standardized columns, converted numeric
+values, removed invalid records and duplicates.
+Load: Exported cleaned data to coffee_etl_output.csv.
+
+4. EXPLORATORY DATA ANALYSIS
+Average calories per record: 68.67 kcal
+Average protein per record: 2.95 g
+Average fat per record: 3.03 g
+Average carbohydrates per record: 6.83 g
+
+Highest-calorie record:
+Mocha - 200 kcal
+
+Lowest-calorie record:
+Black Coffee - 2 kcal
+
+5. APPLICATION
+The app allows users to select a coffee, calculate
+nutrition for multiple servings, view a nutrient chart,
+and search the coffee dataset.
+
+6. LIMITATIONS
+Results depend on the accuracy of the source data.
+Different recipes and serving sizes can change nutrition.
+The app does not independently verify nutrition facts.
+The current Colab app link is temporary.
+
+7. CONCLUSION
+This project demonstrates data extraction, cleaning,
+analysis, visualization, and interactive app development.
+The cleaned dataset can support future improvements.
+
+================================
+END OF REPORT
